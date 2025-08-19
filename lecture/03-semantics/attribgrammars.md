@@ -4,7 +4,7 @@
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [Annotierte Folien: Typen, Type Checking und attributierte
 >   Grammatiken](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/semantics_attribgrammars.ann.ma.pdf)
@@ -442,9 +442,7 @@ T t'(T inh) {
 - Aho u. a. ([2023](#ref-Aho2023)): Kapitel 2.3 und 5
 - Levine ([2009](#ref-Levine2009))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >

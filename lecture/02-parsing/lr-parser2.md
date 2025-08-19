@@ -4,7 +4,7 @@
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [Annotierte Folien:
 >   LR-Parser2](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/lr-parser2.ann.ma.pdf)
@@ -16,7 +16,7 @@
 Ein PDA für
 $`L=\lbrace ww^{R}\mid w\in \lbrace a,b\rbrace^{\ast}\rbrace`$:
 
-<img src="images/pda.png" width="60%">
+<img src="images/pda.png" width="45%">
 
 ### Top-Down-Analyse
 
@@ -69,11 +69,11 @@ Regel enthalten sind.
 
 ### Die SLR-Parsertabelle der Grammatik G1
 
-<p align="center"><img src="images/SLR_1-Table.png" width="60%"></p><p align="center">SLR(1)-Parsertabelle</p>
+<p align="center"><img src="images/SLR_1-Table.png" width="45%"></p><p align="center">SLR(1)-Parsertabelle</p>
 
 ### Zum Vergleich: Die LR(0)-Tabelle von G1 (letzte Vorlesung)
 
-<p align="center"><img src="images/LR_0-Table.png" width="60%"></p><p align="center">LR(0)-Parsertabelle</p>
+<p align="center"><img src="images/LR_0-Table.png" width="45%"></p><p align="center">LR(0)-Parsertabelle</p>
 
 ## Kanonische LR(1)-Syntaxanalyse
 
@@ -160,11 +160,11 @@ LOOKAHEAD-Mengen.
 
 ### Der LALR-Automat der Grammatik G2
 
-<p align="center"><img src="images/LALR-Automat.png"></p><p align="center">LALR(1)-Automat</p>
+<p align="center"><img src="images/LALR-Automat.png" width="80%"></p><p align="center">LALR(1)-Automat</p>
 
 ### Die LALR-Parsertabelle der Grammatik G2
 
-<p align="center"><img src="images/LALR-Table.png" width="60%"></p><p align="center">LALR(1)-Parsertabelle</p>
+<p align="center"><img src="images/LALR-Table.png" width="45%"></p><p align="center">LALR(1)-Parsertabelle</p>
 
 ## $`k \geq 2`$ Vorschautoken
 
@@ -191,7 +191,7 @@ Folgendes kann trotzdem helfen:
 
 ## Hierarchie der kontextfreien Sprachen
 
-<p align="center"><img src="images/CFG-Hierarchy.png" width="80%"></p><p align="center">Sprachenhierarchie</p>
+<p align="center"><img src="images/CFG-Hierarchy.png" width="70%"></p><p align="center">Sprachenhierarchie</p>
 
 ## Wrap-Up
 
@@ -213,24 +213,19 @@ Folgendes kann trotzdem helfen:
 - Kunert ([2018](#ref-Kunert2018))
 - Wagenknecht und Hielscher ([2014](#ref-Wagenknecht2014))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Prinzipien der Bottom-Up-Analyse
-> - k1: Items
-> - k1: Closure
-> - k1: Parse Table
-> - k2: LR(0)-Parsing
-> - k2: SLR-Parsing
-> - k2: LR(1)-Parsing
-> - k2: LALR-Parsing
-> - k3: Konstruktion der Parse Tables
-> - k3: Durchführen des Parsens
+> - k1: Ich kenne die Prinzipien der Bottom-Up-Analyse
+> - k1: Ich kenne die Begriffe Item, Closure und Parse Table
+> - k2: Ich kann LR(0)-, SLR-, LR(1)- und LALR-Parsing an einem Beispiel
+>   erklären
+> - k3: Ich kann die Konstruktion der Parse Tables durchführen
+> - k3: Ich kann das Parsen mit einem LR(0)-, SLR-, LR(1)- oder
+>   LALR-Parser durchführen
 >
 > </details>
 
@@ -287,4 +282,4 @@ Folgendes kann trotzdem helfen:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1c01cef (markdown: switch to leaner yaml header (#253), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2509784 (lecture: rework outcomes (02/LR-Parser2), 2025-08-19)<br></sub></sup></p></blockquote>

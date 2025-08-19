@@ -4,7 +4,7 @@
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [Annotierte Folien: Optimierung und
 >   Datenflussanalyse](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/optimization.ann.ma.pdf)
@@ -493,9 +493,7 @@ des Programms nicht, man spart aber 36% Energie.
 - Aho u. a. ([2023](#ref-Aho2023)): Kapitel 9
 - Mogensen ([2017](#ref-Mogensen2017)): Kapitel 8, 10 und 11
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >

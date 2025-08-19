@@ -1,6 +1,6 @@
 # LL-Parser selbst implementiert
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -34,6 +34,8 @@
 > (Kapitel 2).
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -368,20 +370,22 @@ Quelle: Eigener Code basierend auf einer Idee nach ([Parr
 - Grune u. a. ([2012](#ref-Grune2012)): Abschnitte 3.1 bis
   (einschließlich) 3.4
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Prinzipieller Aufbau von LL-Parsern
-> - k3: Implementierung von LL(1)- und LL(k)-Parsern
-> - k3: Implementierung von Vorrang und Assoziativität
-> - k3: Umgang mit Linksrekursion, insbesondere bei ANTLR
+> - k2: Ich kann den prinzipiellen Aufbau von LL-Parsern am Beispiel
+>   erklären
+> - k3: Ich kann LL(1)- und LL(k)-Parser implementieren
+> - k3: Ich kann Vorrang und Assoziativität bei der Implementierung
+>   korrekt umsetzen
+> - k3: Ich kann mit Linksrekursion umgehen und diese ggf. auflösen
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -465,4 +469,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 - Eigener Code basierend auf einer Idee nach ([Parr
   2010](#ref-Parr2010), p. 47)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5b3a3e7 (tooling: rename repo from 'cb-lecture' to 'cpl-lecture', 2025-08-13)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 30ebf88 (lecture: rework outcomes (02/LL-Impl), 2025-08-19)<br></sub></sup></p></blockquote>

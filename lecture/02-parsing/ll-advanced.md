@@ -1,6 +1,6 @@
 # LL-Parser: Fortgeschrittene Techniken
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -39,6 +39,8 @@
 > (Kapitel 3) und in ([Ford 2006](#ref-Packrat2006)).
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -346,19 +348,17 @@ Hilfswerkzeug!
   (einschließlich) 3.4
 - Ford ([2006](#ref-Packrat2006))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Implementierung von LL(1)- und LL(k)-Parsern
-> - k3: Dynamischer Lookahead mittels Backtracking; Verbesserung der
->   Laufzeiteigenschaften mit Packrat
-> - k3: Einsatz von semantischen Prädikaten zum (De-) Aktivieren von
->   Regeln oder Token
+> - k3: Ich kann LL(1)- und LL(k)-Parser implementieren
+> - k3: Ich kann einen dynamischen Lookahead mittels Backtracking
+>   erreichen und die Laufzeiteigenschaften mit Packrat verbessern
+> - k3: Ich kann semantische Prädikate zum (De-) Aktivieren von Regeln
+>   oder Token einsetzen
 >
 > </details>
 
@@ -431,10 +431,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 **Exceptions:**
 
 - Eigener Code basierend auf einer Idee nach ([Parr
-  2010](#ref-Parr2010), pp. 61/62)
-- Eigener Code basierend auf einer Idee nach ([Parr
   2010](#ref-Parr2010), p. 60)
+- Eigener Code basierend auf einer Idee nach ([Parr
+  2010](#ref-Parr2010), pp. 61/62)
 - Eigener Code basierend auf einer Idee nach ([Parr
   2010](#ref-Parr2010), pp. 65/66)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5b3a3e7 (tooling: rename repo from 'cb-lecture' to 'cpl-lecture', 2025-08-13)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 223c468 (lecture: rework outcomes (02/LL-Advanced), 2025-08-19)<br></sub></sup></p></blockquote>

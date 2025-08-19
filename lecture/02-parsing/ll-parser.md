@@ -4,7 +4,7 @@
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [Annotierte Folien: LL-Parser
 >   (Theorie)](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/ll-parser-theory.ann.ma.pdf)
@@ -233,21 +233,20 @@ zum tabellengesteuerten LL-Parsen</p>
 - Aho u. a. ([2023](#ref-Aho2023))
 - Hopcroft, Motwani, und Ullman ([2003](#ref-hopcroft2003))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Top-Down-Analyse
-> - k1: Recursive-Descent-Parser
-> - k1: First- und Follow-Mengen
-> - k1: LL-Parser
-> - k2: Zusammenhang zwischen PDAs und kontextfreien Grammatiken
-> - k2: Schreiben von LL-Parsern
-> - k3: Top-Down Analyse programmieren
+> - k1: Ich kenne die Top-Down-Analyse
+> - k1: Ich kenne Recursive-Descent-Parser
+> - k1: Ich kenne First- und Follow-Mengen
+> - k1: Ich kenne LL-Parser
+> - k2: Ich kann den Zusammenhang zwischen PDAs und kontextfreien
+>   Grammatiken an einem Beispiel erklären
+> - k2: Ich kann den algorithmischen Ablauf von LL-Parsern an einem
+>   Beispiel erklären
 >
 > </details>
 
@@ -289,4 +288,4 @@ zum tabellengesteuerten LL-Parsen</p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1c01cef (markdown: switch to leaner yaml header (#253), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 87c95b9 (lecture: rework outcomes (02/LL-Theory), 2025-08-19)<br></sub></sup></p></blockquote>

@@ -1,6 +1,6 @@
 # AST-basierte Interpreter: Basics
 
-> [!NOTE]
+> [!IMPORTANT]
 >
 > <details open>
 >
@@ -40,6 +40,8 @@
 > Verhalten entsprechend anpassen.
 >
 > </details>
+
+> [!TIP]
 >
 > <details>
 >
@@ -368,9 +370,7 @@ werden (`finally`-Block).
 - Grune u. a. ([2012](#ref-Grune2012)): Kapitel 6
 - Mogensen ([2017](#ref-Mogensen2017)): Kapitel 4
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
@@ -430,11 +430,11 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 **Exceptions:**
 
 - Eigener Code basierend auf einer Idee nach
-  [Environment.java](https://github.com/munificent/craftinginterpreters/blob/master/java/com/craftinginterpreters/lox/Environment.java#L38)
+  [Interpreter.java](https://github.com/munificent/craftinginterpreters/blob/master/java/com/craftinginterpreters/lox/Interpreter.java#L92)
   by [Bob Nystrom](https://github.com/munificent) on Github.com
   ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 - Eigener Code basierend auf einer Idee nach
-  [Interpreter.java](https://github.com/munificent/craftinginterpreters/blob/master/java/com/craftinginterpreters/lox/Interpreter.java#L92)
+  [Environment.java](https://github.com/munificent/craftinginterpreters/blob/master/java/com/craftinginterpreters/lox/Environment.java#L38)
   by [Bob Nystrom](https://github.com/munificent) on Github.com
   ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 

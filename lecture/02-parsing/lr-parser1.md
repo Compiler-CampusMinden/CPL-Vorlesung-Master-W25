@@ -4,7 +4,7 @@
 >
 > <details>
 >
-> <summary><strong>🖇 Unterlagen</strong></summary>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [Annotierte Folien:
 >   LR-Parser1](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/lr-parser1.ann.ma.pdf)
@@ -150,7 +150,7 @@ Mehrdeutige Grammatiken können nicht *LR* sein.
 
 ### Steuerung des Parsens mittels der Parse Table
 
-<p align="center"><img src="images/ParserProgram.png" width="80%"></p><p align="center">Parser
+<p align="center"><img src="images/ParserProgram.png" width="70%"></p><p align="center">Parser
 Schema</p>
 
 ### Arbeitsweise
@@ -290,7 +290,7 @@ Hier entsteht ein Tafelbild.
 
 ### Die LR(0)-Parsertabelle zu G1
 
-<p align="center"><img src="images/LR_0-Table.png" width="60%"></p><p align="center">LR(0)-Parsertabelle</p>
+<p align="center"><img src="images/LR_0-Table.png" width="45%"></p><p align="center">LR(0)-Parsertabelle</p>
 
 ## Wrap-Up
 
@@ -314,21 +314,17 @@ Hier entsteht ein Tafelbild.
 - Kunert ([2018](#ref-Kunert2018))
 - Wagenknecht und Hielscher ([2014](#ref-Wagenknecht2014))
 
-------------------------------------------------------------------------
-
-> [!TIP]
+> [!NOTE]
 >
 > <details>
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k1: Prinzipien der Bottom-Up-Analyse
-> - k1: Items
-> - k1: Closure
-> - k1: Parse Table
-> - k2: LR(0)-Parsing
-> - k3: Konstruktion der Parse Tables
-> - k3: Durchführen des Parsens
+> - k1: Ich kenne die Prinzipien der Bottom-Up-Analyse
+> - k1: Ich kenne die Begriffe Item, Closure und Parse Table
+> - k2: Ich kann LR(0)-Parsing an einem Beispiel erklären
+> - k3: Ich kann die Konstruktion der Parse Tables durchführen
+> - k3: Ich kann das Parsen mit einem LR(0)-Parser durchführen
 >
 > </details>
 
@@ -385,4 +381,4 @@ Hier entsteht ein Tafelbild.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1c01cef (markdown: switch to leaner yaml header (#253), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2509784 (lecture: rework outcomes (02/LR-Parser2), 2025-08-19)<br></sub></sup></p></blockquote>
