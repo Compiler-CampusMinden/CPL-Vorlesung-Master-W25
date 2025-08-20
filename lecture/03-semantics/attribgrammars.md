@@ -285,7 +285,7 @@ def visit(N):
 
 ### Beispiel: Annotierter Syntaxbaum für `5*8+2`
 
-<p align="center"><img src="images/annotatedparsetree.png"></p><p align="center">Annotierter
+<p align="center"><img src="images/annotatedparsetree.png" width="40%"></p><p align="center">Annotierter
 Parse-Tree</p>
 
 ### Erzeugung des AST aus dem Parse-Tree für `5*8+2`
@@ -297,7 +297,7 @@ Parse-Tree</p>
 | `t : t1 '*' D ;` | `t.node = new Node('*', t1.node, new Leaf(D, D.lexval));` |
 | `t : D ;` | `t.node = new Leaf(D, D.lexval);` |
 
-<p align="center"><img src="images/ast.png" width="30%"></p><p align="center">AST</p>
+<p align="center"><img src="images/ast.png" width="20%"></p><p align="center">AST</p>
 
 ### Beispiel: L-Attributgrammatik, berechnete u. geerbte Attribute, ohne Links-Rekursion
 
@@ -321,7 +321,7 @@ geerbten Attributen:
 
 **`5*8`** =\>
 
-<p align="center"><img src="images/annotatedparsetree2.png"></p><p align="center">Annotierter
+<p align="center"><img src="images/annotatedparsetree2.png" width="40%"></p><p align="center">Annotierter
 Parse-Tree mit berechneten und geerbten Attributen (nur
 Multiplikation)</p>
 
@@ -448,12 +448,14 @@ T t'(T inh) {
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k2: Konzept der attributierten Grammatiken: Anreicherung mit
->   Attributen und semantischen Regeln
-> - k2: Unterschied zwischen geerbten und berechneten Attributen
-> - k2: Umsetzung von SDD mit Hilfe von SDT
-> - k3: Einfache semantische Analyse mit Hilfe von attributierten
->   Grammatiken
+> - k2: Ich kann das Konzept der attributierten Grammatiken erklären und
+>   in einem Beispiel die Anreicherung mit Attributen und semantischen
+>   Regeln demonstrieren
+> - k2: Ich kann den Unterschied zwischen geerbten und berechneten
+>   Attributen erklären
+> - k2: Ich kann die Umsetzung von SDD mit Hilfe von SDT erklären
+> - k3: Ich kann eine einfache semantische Analyse mit Hilfe von
+>   attributierten Grammatiken durchführen
 >
 > </details>
 
@@ -493,4 +495,4 @@ T t'(T inh) {
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1c01cef (markdown: switch to leaner yaml header (#253), 2025-08-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 36445cc (lecture: rework outcomes (03/AttribGrammar), 2025-08-20)<br></sub></sup></p></blockquote>
