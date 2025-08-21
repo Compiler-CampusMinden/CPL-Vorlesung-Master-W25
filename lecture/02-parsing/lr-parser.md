@@ -7,7 +7,7 @@
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
 > - [Annotierte Folien:
->   LR-Parser1](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/lr-parser1.ann.ma.pdf)
+>   LR-Parser](https://github.com/Compiler-CampusMinden/AnnotatedSlides/blob/master/lr-parser.ann.ma.pdf)
 >
 > </details>
 
@@ -320,4 +320,4 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2509784 (lecture: rework outcomes (02/LR-Parser2), 2025-08-19)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e7bbe05 (cleanup: remove 02/lr-parser{1,2}.md - #210, 2025-08-21)<br></sub></sup></p></blockquote>

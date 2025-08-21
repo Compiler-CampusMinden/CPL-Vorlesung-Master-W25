@@ -90,7 +90,7 @@ Vorstellung der Lösung im jeweiligen Praktikum in der Abgabewoche.
 |:---|:---|:---|:---|:---|
 | Oktober | 08\. | [Orga](https://www.hsbi.de/elearning/data/FH-Bielefeld/lm_data/lm_1603207/index.html#überblick-modulinhalte) (*Zoom*); [Überblick](lecture/00-intro/overview.md), [Sprachen](lecture/00-intro/languages.md), [Anwendungen](lecture/00-intro/applications.md) | Carsten, BC |  |
 |  | 15\. | [Reguläre Sprachen](lecture/01-lexing/regular.md), [CFG](lecture/02-parsing/cfg.md), [LL-Parser](lecture/02-parsing/ll-parser.md), [LL-Parser (Impl)](lecture/02-parsing/ll-parser-impl.md), [LL-Parser (Advanced)](lecture/02-parsing/ll-advanced.md) | BC | Verteilung Themen |
-|  | 22\. | [LR-Parser](lecture/02-parsing/lr-parser.md),[LR-Parser 1](lecture/02-parsing/lr-parser1.md), [LR-Parser 2](lecture/02-parsing/lr-parser2.md) | BC | Status Workshop I |
+|  | 22\. | [LR-Parser](lecture/02-parsing/lr-parser.md) | BC | Status Workshop I |
 |  | 29\. | **[Workshop I](homework/project.md)**: Sprache und Features (auf Sprachebene) |  |  |
 |  | 29\. | **18:00 - 19:30 Uhr (online): Edmonton I: ANTLR + Live-Coding** | *Edmonton* |  |
 | November | 05\. | [Attributierte Grammatiken](lecture/03-semantics/attribgrammars.md) | BC | Status Workshop II |
@@ -204,4 +204,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5b3a3e7 (tooling: rename repo from 'cb-lecture' to 'cpl-lecture', 2025-08-13)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e7bbe05 (cleanup: remove 02/lr-parser{1,2}.md - #210, 2025-08-21)<br></sub></sup></p></blockquote>

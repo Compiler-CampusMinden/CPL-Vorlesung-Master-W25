@@ -9,7 +9,7 @@
 > Zur Einordnung noch einmal die bisher betrachteten Phasen und die
 > jeweiligen Ergebnisse:
 >
-> <img src="https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/lecture/06-interpretation/images/architektur_cb.png?raw=true">
+> <img src="https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/lecture/06-interpretation/images/architektur_cb.png?raw=true" width="60%">
 >
 > |  | Phase | Ergebnis |
 > |:---|:---|:---|
@@ -59,7 +59,7 @@
 
 ## Überblick Interpreter
 
-<img src="images/interpreter.png" width="60%">
+<img src="images/interpreter.png" width="50%">
 
 Beim Interpreter durchläuft der Sourcecode nur das Frontend, also die
 Analyse. Es wird kein Code erzeugt, stattdessen führt der Interpreter
@@ -405,10 +405,10 @@ public class TestMyVisitor {
 >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> - k3: Attribute und eingebettete Aktionen in Bison und ANTLR
-> - k3: Traversierung von Parse-Trees und Implementierung von Aktionen
+> - k3: Ich kann Attribute und eingebettete Aktionen in ANTLR einsetzen
+> - k3: Ich kann Parse-Trees traversieren und Aktionen implementieren
 >   mit Hilfe des Listener-Patterns
-> - k3: Traversierung von Parse-Trees und Implementierung von Aktionen
+> - k3: Ich kann Parse-Trees traversieren und Aktionen implementieren
 >   mit Hilfe des Visitor-Patterns
 >
 > </details>
@@ -462,4 +462,4 @@ public class TestMyVisitor {
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5b3a3e7 (tooling: rename repo from 'cb-lecture' to 'cpl-lecture', 2025-08-13)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4fd8c3d (lecture: rework outcomes (06/Syntaxdriven), 2025-08-21)<br></sub></sup></p></blockquote>
