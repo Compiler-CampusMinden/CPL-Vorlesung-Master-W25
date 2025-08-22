@@ -358,11 +358,4 @@ symbolischen Debugger noch gebraucht werden.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- Nested Scopes: Eigene Modellierung nach einer Idee in ([Parr
-  2010](#ref-Parr2010), p. 142)
-- Nested Scopes: Eigene Implementierung nach einer Idee in ([Parr
-  2010](#ref-Parr2010), p. 169)
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> 19c7753 (lecture: fix origin (03/SymbTab1), 2025-08-21)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0db2fe0 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

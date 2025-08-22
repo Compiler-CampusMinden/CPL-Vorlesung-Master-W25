@@ -462,11 +462,4 @@ Quelle: Eigener Code basierend auf einer Idee nach ([Parr
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- Eigener Code basierend auf einer Idee nach ([Parr
-  2010](#ref-Parr2010), p. 43)
-- Eigener Code basierend auf einer Idee nach ([Parr
-  2010](#ref-Parr2010), p. 47)
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> 30ebf88 (lecture: rework outcomes (02/LL-Impl), 2025-08-19)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0db2fe0 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>

@@ -428,13 +428,4 @@ Hilfswerkzeug!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-**Exceptions:**
-
-- Eigener Code basierend auf einer Idee nach ([Parr
-  2010](#ref-Parr2010), pp. 61/62)
-- Eigener Code basierend auf einer Idee nach ([Parr
-  2010](#ref-Parr2010), pp. 65/66)
-- Eigener Code basierend auf einer Idee nach ([Parr
-  2010](#ref-Parr2010), p. 60)
-
-<blockquote><p><sup><sub><strong>Last modified:</strong> 223c468 (lecture: rework outcomes (02/LL-Advanced), 2025-08-19)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0db2fe0 (tooling: rename 'origin' to 'credits', 2025-08-22)<br></sub></sup></p></blockquote>
