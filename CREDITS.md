@@ -41,4 +41,4 @@ Gips](https://github.com/cagix), and various
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5b3a3e7 (tooling: rename repo from 'cb-lecture' to 'cpl-lecture', 2025-08-13)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5b3a3e7 (tooling: rename repo from cb-lecture to cpl-lecture, 2025-08-13)<br></sub></sup></p></blockquote>

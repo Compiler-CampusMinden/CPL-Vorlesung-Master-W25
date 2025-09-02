@@ -86,41 +86,46 @@ Abgabe der Übungsblätter jeweils **Dienstag bis 14:00 Uhr** im
 [ILIAS](https://www.hsbi.de/elearning/goto.php?target=exc_1421692&client_id=FH-Bielefeld).
 Vorstellung der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
-| Woche | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum |  |
+| Woche | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | Edmonton/Minden-Meetings |
 |:---|:---|:---|:---|:---|
-| W01 / KW41 |  | [Orga](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25) (*Zoom*) \|\| [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) |  |  |
+| W01 / KW41 | [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | [Orga](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25) (*Zoom*) |  |  |
 | W02 / KW42 |  | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
-| W03 / KW43 | [Lexer (Impl)](lecture/01-lexing/recursive.md) | [LL-Parser](lecture/02-parsing/ll-parser.md) | [LL-Parser (Impl)](lecture/02-parsing/ll-parser-impl.md) |  |
+| W03 / KW43 | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) | [LL-Parser](lecture/02-parsing/ll-parser.md) | [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
 | W04 / KW44 |  | [LR-Parser](lecture/02-parsing/lr-parser.md) | *Vorträge/Diskussion: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, …)* |  |
-| W05 / KW45 | [Überblick Symboltabellen](lecture/03-semantics/symbtab0-intro.md) \| [Symboltabellen: Scopes](lecture/03-semantics/symbtab1-scopes.md) | [Symboltabellen: Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Symboltabellen: Klassen](lecture/03-semantics/symbtab3-classes.md) | *Vorträge/Diskussion: LALR, PEG, Pratt, Combinators* | **18:00 - 19:30 Uhr (online): Edmonton I: ANTLR + Live-Coding** |
+| W05 / KW45 | Symboltabellen: [Überblick](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) | [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | *Vorträge/Diskussion: LALR, PEG, Pratt, Combinators* |  |
 | W06 / KW46 |  | *Vorträge/Diskussion: Type Checking, Hindley-Milner* | *Vorträge/Diskussion: OOP (Gabbrielli & Martini, Kap. 10)* |  |
 | W07 / KW47 | [Syntaxgesteuerte Interpreter](lecture/06-interpretation/syntaxdriven.md) \| [AST-basierte Interpreter 1](lecture/06-interpretation/astdriven-part1.md) | [AST-basierte Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | *Vorträge/Diskussion: FP (Gabbrielli & Martini, Kap. 11)* |  |
 | W08 / KW48 |  | *Vorträge/Diskussion: VM & Bytecode* | *Vorträge/Diskussion: LP (Gabbrielli & Martini, Kap. 12)* |  |
-| W09 / KW49 |  |  | *Vorträge/Diskussion: CP (Gabbrielli & Martini, Kap. 13)* \| *Vorträge/Diskussion: Garbage Collection* \| *Vorträge/Diskussion: JIT* | **18:00 - 19:30 Uhr (online): Edmonton II: Vorträge Mindener Projekte** |
-| W10 / KW50 |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | *Meilenstein 0: [Kick-Off](homework/project.md)* | **18:00 - 19:30 Uhr (online): Edmonton III: Vorträge Edmontoner Projekte** |
-| W11 / KW51 |  | *Sprechstunde/Freies Arbeiten* | *Meilenstein 1: DSL* |  |
-| W12 / KW02 |  | *Sprechstunde/Freies Arbeiten* | *Meilenstein 2: Interpreter* |  |
-| W13 / KW03 |  | *Sprechstunde/Freies Arbeiten* |  |  |
-| W14 / KW04 |  |  | *Meilenstein 3: Vorträge* |  |
+| W09 / KW49 |  | *Sprechstunde* | *Vorträge/Diskussion: CP (Gabbrielli & Martini, Kap. 13)* \| *Vorträge/Diskussion: Garbage Collection* \| *Vorträge/Diskussion: JIT* | **Mo, 01.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Minden Presentations** |
+| W10 / KW50 |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | *Meilenstein 0: [Kick-Off](homework/project.md)* | **Mo, 08.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Edmonton Presentations** |
+| W11 / KW51 |  | *Sprechstunde* | *Freies Arbeiten* |  |
+| \- / KW52 |  | *Weihnachtspause* |  |  |
+| \- / KW01 |  | *Weihnachtspause* |  |  |
+| W12 / KW02 |  | *Sprechstunde* | *Meilenstein 1: DSL* |  |
+| W13 / KW03 |  | *Sprechstunde* | *Freies Arbeiten* |  |
+| W14 / KW04 |  | *Meilenstein 2: Vorträge* | *Meilenstein 2: Vorträge* |  |
 
 ## Prüfungsform, Note und Credits
 
-**Parcoursprüfung plus Testat**, 10 ECTS
+**Mündliche Prüfung plus Studienleistung**, 10 ECTS
 
-- **Testat**: Vergabe der Credit-Points
+- **Studienleistung**: “Portfolio”
 
-  1.  **Aktive** Teilnahme an mind. 5 der 7 “Status Workshop”-Termine,
-      **und**
-  2.  **aktive** Teilnahme an allen 3 Edmonton-Terminen.
+  Kriterien je Team (2 Personen):
 
-- **Gesamtnote**:
+  - Aktive Teilnahme an beiden Edmonton/Minden-Terminen
+  - 1x Kurzvortrag plus Diskussionsleitung “PL Features” (Gabbrielli &
+    Martini) a 20’
+  - 1x Vortrag “Compiler” (Parser Generatoren, Parser, Type Checking,
+    VM/Bytecode) a 60’
+  - 1x Vortrag Edmonton (20’ pro Team)
+  - Durchführung DSL-Projekt und Einhaltung der Meilensteine
+  - Vortrag pro Team am Ende (W14) a 30’
 
-  Die Workshops werden bewertet und ergeben in folgender Gewichtung die
-  Gesamtnote:
+  Je Kriterium: Abgabe eines Post Mortem im ILIAS (**jede Person
+  individuell**)
 
-  - 20% [Workshop I](homework/project.md),
-  - 30% [Workshop II](homework/project.md),
-  - 50% [Workshop III](homework/project.md).
+- **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
 
 Die Bearbeitung der Aufgaben (Workshops) erfolgt in 2er Teams.
 
@@ -197,4 +202,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 54f5902 (orga: update plan, split self study and class session, 2025-08-29)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 86a0031 (orga: refine schedule, 2025-09-02)<br></sub></sup></p></blockquote>
