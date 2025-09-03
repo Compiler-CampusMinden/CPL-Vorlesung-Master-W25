@@ -99,8 +99,8 @@ Vorstellung der Lösung im jeweiligen Praktikum in der Abgabewoche.
 | W09 / KW49 |  | *Sprechstunde* | *Vorträge/Diskussion: CP (Gabbrielli & Martini, Kap. 13)* \| *Vorträge/Diskussion: Garbage Collection* \| *Vorträge/Diskussion: JIT* | **Mo, 01.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Minden Presentations** |
 | W10 / KW50 |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | *Meilenstein 0: [Kick-Off](homework/project.md)* | **Mo, 08.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Edmonton Presentations** |
 | W11 / KW51 |  | *Sprechstunde* | *Freies Arbeiten* |  |
-| \- / KW52 |  | *Weihnachtspause* |  |  |
-| \- / KW01 |  | *Weihnachtspause* |  |  |
+| *- / KW52* |  | *Weihnachtspause* |  |  |
+| *- / KW01* |  | *Weihnachtspause* |  |  |
 | W12 / KW02 |  | *Sprechstunde* | *Meilenstein 1: DSL* |  |
 | W13 / KW03 |  | *Sprechstunde* | *Freies Arbeiten* |  |
 | W14 / KW04 |  | *Meilenstein 2: Vorträge* | *Meilenstein 2: Vorträge* |  |
@@ -202,4 +202,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 86a0031 (orga: refine schedule, 2025-09-02)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 87a638e (orga: improve readability of schedule, 2025-09-03)<br></sub></sup></p></blockquote>
