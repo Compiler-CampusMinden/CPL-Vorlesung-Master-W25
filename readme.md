@@ -200,7 +200,7 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cca3fdb (orga: refine exams/grading, 2025-09-08)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e23201e (orga: reformat markdown, 2025-09-08)<br></sub></sup></p></blockquote>
 
 [^1]: **Post Mortem**: Jede Person beschreibt in der ILIAS-Abgabe
     individuell(!) die Bearbeitung des jeweiligen Kriteriums bzw. die
