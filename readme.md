@@ -68,12 +68,12 @@ die Java-VM oder WASM ein.
 
 ## Kursformat
 
-| Vorlesung (2 SWS)            | Praktikum (3 SWS)            |
-|:-----------------------------|:-----------------------------|
-| Di, 14:00 - 15:30 Uhr (Zoom) | Di, 15:45 - 18:00 Uhr (Zoom) |
+| Seminaristischer Unterricht (2 SWS) | Praktikum (3 SWS)            |
+|:------------------------------------|:-----------------------------|
+| Di, 09:45 - 11:15 Uhr (Zoom)        | Di, 11:30 - 13:45 Uhr (Zoom) |
 
-Durchführung der Vorlesung als *Flipped Classroom* (Carsten) bzw. als
-*reguläre Vorlesung* (BC). Zugangsdaten Zoom siehe
+Durchführung des seminaristischen Unterrichts als *Flipped Classroom*
+(Carsten) bzw. als *reguläre Vorlesung* (BC). Zugangsdaten Zoom siehe
 [ILIAS](https://www.hsbi.de/elearning/goto.php?target=crs_1400597&client_id=FH-Bielefeld).
 
 ## Fahrplan
@@ -86,7 +86,7 @@ Abgabe der Übungsblätter jeweils **Dienstag bis 14:00 Uhr** im
 [ILIAS](https://www.hsbi.de/elearning/goto.php?target=exc_1421692&client_id=FH-Bielefeld).
 Vorstellung der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
-| Woche | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | Edmonton/Minden-Meetings |
+| Woche | Sem. Unterricht: Selbststudium (Vorbereitung) | Sem. Unterricht: Gemeinsame Sitzung | Praktikum | Edmonton/Minden-Meetings |
 |:---|:---|:---|:---|:---|
 | W01 / KW41 | [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | [Orga](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25) (*Zoom*) |  |  |
 | W02 / KW42 |  | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
@@ -200,7 +200,7 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e23201e (orga: reformat markdown, 2025-09-08)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c24c37d (orga: fix lecture time (typo), 2025-09-09)<br></sub></sup></p></blockquote>
 
 [^1]: **Post Mortem**: Jede Person beschreibt in der ILIAS-Abgabe
     individuell(!) die Bearbeitung des jeweiligen Kriteriums bzw. die
