@@ -74,7 +74,7 @@ die Java-VM oder WASM ein.
 
 Durchführung des seminaristischen Unterrichts als *Flipped Classroom*
 (Carsten) bzw. als *reguläre Vorlesung* (BC). Zugangsdaten Zoom siehe
-[ILIAS](https://www.hsbi.de/elearning/goto.php?target=crs_1400597&client_id=FH-Bielefeld).
+[ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1555873).
 
 ## Fahrplan
 
@@ -196,7 +196,7 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 459b108 (orga: improve wording towards Post Mortem, 2025-09-09)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 362e21d (orga: fix link to ilias, 2025-09-10)<br></sub></sup></p></blockquote>
 
 [^1]: **Post Mortem**: Jede Person beschreibt individuell(!) für jede
     selbst durchgeführte Studienleistung die Bearbeitung des jeweiligen
@@ -219,8 +219,7 @@ projects.
 
     Die Post Mortems geben Sie bitte zusammengefasst als Lerntagebuch
     bis spätestens zur letzten gemeinsamen Sitzung im
-    [ILIAS](https://www.hsbi.de/elearning/goto.php?target=exc_1421692&client_id=FH-Bielefeld)
-    ab.
+    [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582798) ab.
 
     Siehe auch
     https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25/discussions/2.
