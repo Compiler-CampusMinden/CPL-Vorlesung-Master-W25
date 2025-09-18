@@ -100,7 +100,9 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 
 - **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
 
-*Hinweise*:
+<details>
+
+<summary><strong>Hinweise</strong></summary>
 
 - Die Bearbeitung der Leistungen erfolgt im Team.
 
@@ -136,6 +138,8 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 
   Siehe auch
   https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25/discussions/2.
+
+</details>
 
 ## Materialien
 
@@ -210,4 +214,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 104e2cc (orga: revise schedule to accommodate more students, 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9e41cc9 (orga: wrap hinweise as gh-details, 2025-09-18)<br></sub></sup></p></blockquote>
