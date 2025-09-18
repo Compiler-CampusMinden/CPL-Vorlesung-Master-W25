@@ -66,41 +66,76 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 | W01 / KW41 | [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | [Orga](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25) (*Zoom*) |  |  |
 | W02 / KW42 |  | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
 | W03 / KW43 | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) | [LL-Parser](lecture/02-parsing/ll-parser.md) | [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
-| W04 / KW44 |  | [LR-Parser](lecture/02-parsing/lr-parser.md) | *Vortrag/Diskussion Compiler: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, …)* |  |
-| W05 / KW45 | Symboltabellen: [Überblick](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) | [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | *Vortrag/Diskussion Compiler: LALR, PEG, Pratt, Combinators* |  |
-| W06 / KW46 |  | *Vortrag/Diskussion Compiler: Type Checking, Hindley-Milner* | *Kurzvortrag/Diskussion PL-Feature: OOP (Gabbrielli & Martini, Kap. 10)* |  |
-| W07 / KW47 | [Syntaxgesteuerte Interpreter](lecture/06-interpretation/syntaxdriven.md) \| [AST-basierte Interpreter 1](lecture/06-interpretation/astdriven-part1.md) | [AST-basierte Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | *Kurzvortrag/Diskussion PL-Feature: FP (Gabbrielli & Martini, Kap. 11)* |  |
-| W08 / KW48 |  | *Vortrag/Diskussion Compiler: VM & Bytecode* | *Kurzvortrag/Diskussion PL-Feature: LP (Gabbrielli & Martini, Kap. 12)* |  |
-| W09 / KW49 |  | *Sprechstunde* | *Kurzvortrag/Diskussion PL-Feature: CP (Gabbrielli & Martini, Kap. 13)* \| *Vortrag/Diskussion Compiler: Garbage Collection* \| *Vortrag/Diskussion Compiler: JIT* | **Mo, 01.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Minden Presentations** |
-| W10 / KW50 |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | *Meilenstein 0: [Kick-Off](homework/project.md)* | **Mo, 08.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Edmonton Presentations** |
-| W11 / KW51 |  | *Sprechstunde* | *Freies Arbeiten* |  |
+| W04 / KW44 |  | [LR-Parser](lecture/02-parsing/lr-parser.md) | *Vortrag “Compiler”: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, …)* |  |
+| W05 / KW45 | Symboltabellen: [Überblick](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) | [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | *Vortrag “Compiler”: LALR, PEG, Pratt, Combinators* |  |
+| W06 / KW46 |  | *Vortrag “Compiler”: Type Checking, Hindley-Milner* | *Kurzvortrag/Diskussion “PL-Feature”: OOP (Gabbrielli & Martini, Kap. 10)* |  |
+| W07 / KW47 | [Syntaxgesteuerte Interpreter](lecture/06-interpretation/syntaxdriven.md) \| [AST-basierte Interpreter 1](lecture/06-interpretation/astdriven-part1.md) | [AST-basierte Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | *Vorstellung der Konzepte [DSL-Projekt](homework/project.md)* |  |
+| W08 / KW48 |  | *Vortrag “Compiler”: VM & Bytecode* | *Kurzvortrag/Diskussion “PL-Feature”: FP (Gabbrielli & Martini, Kap. 11)* |  |
+| W09 / KW49 |  | *Sprechstunde* | *Kurzvortrag/Diskussion “PL-Feature”: LP (Gabbrielli & Martini, Kap. 12)* | **Mo, 01.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Minden Presentations**: *Vortrag: Vorstellung “DSL-Projekt”* |
+| W10 / KW50 |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | *Kurzvortrag/Diskussion “PL-Feature”: CP (Gabbrielli & Martini, Kap. 13)* | **Mo, 08.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Edmonton Presentations** |
+| W11 / KW51 |  | *Vortrag “Compiler”: Garbage Collection* | *Vortrag “Compiler”: JIT* |  |
 | *- / KW52* |  | *Weihnachtspause* |  |  |
 | *- / KW01* |  | *Weihnachtspause* |  |  |
-| W12 / KW02 |  | *Sprechstunde* | *Meilenstein 1: DSL* |  |
+| W12 / KW02 |  | *Kurzvortrag/Diskussion “PL-Feature”: Borrow Checking und Lifetimes ([Rust](https://www.rust-lang.org/))* | *Kurzvortrag/Diskussion “PL-Feature”: Dependent Type Systems ([Idris](https://www.idris-lang.org/))* |  |
 | W13 / KW03 |  | *Sprechstunde* | *Freies Arbeiten* |  |
-| W14 / KW04 |  | *Meilenstein 2: Vorträge* | *Meilenstein 2: Vorträge DSL-Projekt* |  |
+| W14 / KW04 |  | *Vorträge [DSL-Projekt](homework/project.md)* | *Vorträge [DSL-Projekt](homework/project.md)* |  |
 
 ## Prüfungsform, Note und Credits
 
-**Mündliche Prüfung plus Studienleistung**, 10 ECTS
+**Mündliche Prüfung plus Studienleistung (Portfolio)**, 10 ECTS
 
-- **Studienleistung**: “Portfolio”
+- **Studienleistung**: “Portfolio” - Kriterien je Person:
 
-  Kriterien je Team (2 Personen):
+  1.  Teilnahme an beiden Edmonton/Minden-Terminen mit aktiver
+      Beteiligung, pro Team ist am ersten Treffen ein Vortrag zum
+      DSL-Projekt a 20 Minuten zu halten (Englisch!)
+  2.  Kurzvortrag plus Diskussionsleitung “PL Features” a 20 Minuten
+      (pro Team)
+  3.  Vortrag “Compiler” a 60 Minuten (pro Team)
+  4.  Abschlussvortrag zum DSL-Projekt am Semesterende (W14) a 30
+      Minuten (pro Team)
 
-  1.  Aktive Teilnahme an beiden Edmonton/Minden-Terminen (zus. mit 4.)
-  2.  1x Kurzvortrag plus Diskussionsleitung “PL Features” (Gabbrielli &
-      Martini) a 20 Minuten
-  3.  1x Vortrag “Compiler” (Parser Generatoren, Parser, Type Checking,
-      VM/Bytecode) a 60 Minuten
-  4.  1x Vortrag Edmonton (20 Minuten pro Team)
-  5.  Durchführung DSL-Projekt und Einhaltung der Meilensteine
-  6.  Vortrag pro Team am Ende (W14) a 30 Minuten
-
-  Je Kriterium: Erstellen eines Post Mortems pro Studienleistung und
-  Abgabe als Lerntagebuch im ILIAS[^1] (**jede Person individuell**)
+  Je Kriterium: Abgabe eines Post Mortem im ILIAS (**jede Person
+  individuell**)
 
 - **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
+
+*Hinweise*:
+
+- Die Bearbeitung der Leistungen erfolgt im Team.
+
+- Ein Team umfasst 3 Personen.
+
+- Die Post Mortems sind individuell zu erstellen und abzugeben.
+
+- “Aktive Beteiligung” umfasst Anwesenheit und sachbezogene Beiträge;
+  Anwesenheit/Beteiligung werden dokumentiert.
+
+- **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung
+  des jeweiligen Kriteriums bzw. die Teilnahme am
+  Edmonton/Minden-Meeting zurückblickend mit mind. 200 bis max. 400
+  Wörtern (Nutzlast; Überschriften und Links zählen nicht mit). Gehen
+  Sie dabei aussagekräftig und nachvollziehbar auf folgende Punkte ein:
+
+  1.  Zusammenfassung: Was wurde gemacht bzw. was wurde auf dem Meeting
+      besprochen?
+  2.  Details: Kurze Beschreibung besonders interessanter Aspekte.
+  3.  Reflexion: Was war der schwierigste Teil? Wie haben Sie dieses
+      Problem gelöst?
+  4.  Reflexion: Was haben Sie gelernt oder (besser) verstanden?
+  5.  Team: Mit wem haben Sie zusammengearbeitet?
+  6.  Link zu Ihrem Repo mit den relevanten Artefakten (Lösung, Slides
+      für den Vortrag, …).
+
+  Für die Edmonton/Minden-Meetings passen Sie bitte die Punkte (1)
+  bis (4) und (5) entsprechend inhaltlich an, (6) entfällt.
+
+  Die Post Mortems geben Sie bitte pro Person bis spätestens zur letzten
+  gemeinsamen Sitzung im
+  [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582798) ab.
+
+  Siehe auch
+  https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25/discussions/2.
 
 ## Materialien
 
@@ -175,30 +210,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1261474 (orga: update overview topics, 2025-09-10)<br></sub></sup></p></blockquote>
-
-[^1]: **Post Mortem**: Jede Person beschreibt individuell(!) für jede
-    selbst durchgeführte Studienleistung die Bearbeitung des jeweiligen
-    Kriteriums bzw. die Teilnahme am Edmonton/Minden-Meeting
-    zurückblickend mit jeweils mind. 200 bis max. 400 Wörtern (Nutzlast;
-    Überschriften und Links zählen nicht mit). Gehen Sie dabei
-    aussagekräftig und nachvollziehbar auf folgende Punkte ein:
-
-    1.  Zusammenfassung: Was wurde gemacht?
-    2.  Details: Kurze Beschreibung besonders interessanter Aspekte.
-    3.  Reflexion: Was war der schwierigste Teil? Wie haben Sie dieses
-        Problem gelöst?
-    4.  Reflexion: Was haben Sie gelernt oder (besser) verstanden?
-    5.  Team: Mit wem haben Sie zusammengearbeitet?
-    6.  Link zu Ihrem Repo mit den relevanten Artefakten (Lösung, Slides
-        für den Vortrag, …).
-
-    Für die Edmonton/Minden-Meetings passen Sie bitte die Punkte (1) bis
-    (4) und (5) entsprechend inhaltlich an, (6) entfällt.
-
-    Die Post Mortems geben Sie bitte zusammengefasst als Lerntagebuch
-    bis spätestens zur letzten gemeinsamen Sitzung im
-    [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582798) ab.
-
-    Siehe auch
-    https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25/discussions/2.
+<blockquote><p><sup><sub><strong>Last modified:</strong> 104e2cc (orga: revise schedule to accommodate more students, 2025-09-18)<br></sub></sup></p></blockquote>
