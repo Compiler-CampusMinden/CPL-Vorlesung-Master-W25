@@ -105,13 +105,12 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 <summary><strong>Hinweise</strong></summary>
 
 - Die Bearbeitung der Leistungen erfolgt im Team.
-
 - Ein Team umfasst 3 Personen.
-
 - Die Post Mortems sind individuell zu erstellen und abzugeben.
-
 - “Aktive Beteiligung” umfasst Anwesenheit und sachbezogene Beiträge;
   Anwesenheit/Beteiligung werden dokumentiert.
+
+<!-- -->
 
 - **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung
   des jeweiligen Kriteriums bzw. die Teilnahme am
@@ -130,7 +129,8 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
       für den Vortrag, …).
 
   Für die Edmonton/Minden-Meetings passen Sie bitte die Punkte (1)
-  bis (4) und (5) entsprechend inhaltlich an, (6) entfällt.
+  bis (4) und (5) entsprechend inhaltlich an, (6) entfällt für das
+  zweite Meeting.
 
   Die Post Mortems geben Sie bitte pro Person bis spätestens zur letzten
   gemeinsamen Sitzung im
@@ -214,4 +214,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0ebba50 (orga: improve wording for short talks, 2025-09-18)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9d64508 (orga: clarify post mortem, 2025-10-04)<br></sub></sup></p></blockquote>
