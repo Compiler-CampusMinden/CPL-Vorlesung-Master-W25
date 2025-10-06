@@ -63,22 +63,22 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 
 | Woche | Sem. Unterricht: Selbststudium (Vorbereitung) | Sem. Unterricht: Gemeinsame Sitzung | Praktikum | Edmonton/Minden-Meetings |
 |:---|:---|:---|:---|:---|
-| W01 / KW41 | [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | [Orga](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25) (*Zoom*) |  |  |
-| W02 / KW42 |  | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
-| W03 / KW43 | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) | [LL-Parser](lecture/02-parsing/ll-parser.md) | [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
-| W04 / KW44 |  | [LR-Parser](lecture/02-parsing/lr-parser.md) | *Vortrag “Compiler”: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, …)* |  |
-| W05 / KW45 | Symboltabellen: [Überblick](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) | [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | *Vortrag “Compiler”: LALR, PEG, Pratt, Combinators* |  |
-| W06 / KW46 |  | *Vortrag “Compiler”: Type Checking, Hindley-Milner* | *Kurzvortrag/Diskussion “PL-Feature”: OOP (Gabbrielli & Martini, Kap. 10)* |  |
-| W07 / KW47 | [Syntaxgesteuerte Interpreter](lecture/06-interpretation/syntaxdriven.md) \| [AST-basierte Interpreter 1](lecture/06-interpretation/astdriven-part1.md) | [AST-basierte Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | *Vorstellung der Konzepte [DSL-Projekt](homework/project.md)* |  |
-| W08 / KW48 |  | *Vortrag “Compiler”: VM & Bytecode* | *Kurzvortrag/Diskussion “PL-Feature”: FP (Gabbrielli & Martini, Kap. 11)* |  |
-| W09 / KW49 |  | *Sprechstunde* | *Kurzvortrag/Diskussion “PL-Feature”: LP (Gabbrielli & Martini, Kap. 12)* | **Mo, 01.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Minden Presentations**: *Vortrag: Vorstellung “DSL-Projekt”* |
-| W10 / KW50 |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | *Kurzvortrag/Diskussion “PL-Feature”: CP (Gabbrielli & Martini, Kap. 13)* | **Mo, 08.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Edmonton Presentations** |
-| W11 / KW51 |  | *Vortrag “Compiler”: Garbage Collection* | *Vortrag “Compiler”: JIT* |  |
-| *- / KW52* |  | *Weihnachtspause* |  |  |
-| *- / KW01* |  | *Weihnachtspause* |  |  |
-| W12 / KW02 |  | *Kurzvortrag/Diskussion “PL-Feature”: Borrow Checking und Lifetimes ([Rust](https://www.rust-lang.org/))* | *Kurzvortrag/Diskussion “PL-Feature”: Dependent Type Systems ([Idris](https://www.idris-lang.org/))* |  |
-| W13 / KW03 |  | *Sprechstunde* | *Freies Arbeiten* |  |
-| W14 / KW04 |  | *Vorträge [DSL-Projekt](homework/project.md)* | *Vorträge [DSL-Projekt](homework/project.md)* |  |
+| 07.10. | [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | [Orga](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master-W25) (*Zoom*) |  |  |
+| 14.10. |  | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
+| 21.10. | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) | [LL-Parser (Theorie)](lecture/02-parsing/ll-parser.md) | [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
+| 28.10. |  | [LR-Parser](lecture/02-parsing/lr-parser.md) | [*Vortrag “Compiler”: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, …)*](homework/talk.md) |  |
+| 04.11. | Symboltabellen: [Überblick](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) | [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | [*Vortrag “Compiler”: LALR, PEG, Pratt, Combinators*](homework/talk.md) |  |
+| 11.11. |  | [*Vortrag “Compiler”: Type Checking, Hindley-Milner*](homework/talk.md) | [*Kurzvortrag/Diskussion “PL-Feature”: OOP (Gabbrielli & Martini, Kap. 10)*](homework/talk.md) |  |
+| 18.11. | [Syntaxgesteuerte Interpreter](lecture/06-interpretation/syntaxdriven.md) \| [AST-basierte Interpreter 1](lecture/06-interpretation/astdriven-part1.md) | [AST-basierte Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | *Vorstellung der Konzepte [DSL-Projekt](homework/project.md)* |  |
+| 25.11. |  | [*Vortrag “Compiler”: VM & Bytecode*](homework/talk.md) | [*Kurzvortrag/Diskussion “PL-Feature”: FP (Gabbrielli & Martini, Kap. 11)*](homework/talk.md) |  |
+| 02.12. |  | *Sprechstunde* | [*Kurzvortrag/Diskussion “PL-Feature”: LP (Gabbrielli & Martini, Kap. 12)*](homework/talk.md) | **Mo, 01.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Minden Presentations**: [*Vortrag: Vorstellung “DSL-Projekt”*](homework/talk.md) |
+| 09.12. |  | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | [*Kurzvortrag/Diskussion “PL-Feature”: CP (Gabbrielli & Martini, Kap. 13)*](homework/talk.md) | **Mo, 08.12., 18:00 - 19:00 Uhr (online): Edmonton/Minden: Edmonton Presentations** |
+| 16.12. |  | [*Vortrag “Compiler”: Garbage Collection*](homework/talk.md) | [*Vortrag “Compiler”: JIT*](homework/talk.md) |  |
+| *23.12.* |  | *Weihnachtspause* |  |  |
+| *30.12.* |  | *Weihnachtspause* |  |  |
+| 06.01. |  | [*Kurzvortrag/Diskussion “PL-Feature”: Borrow Checking und Lifetimes (Rust)*](homework/talk.md) | [*Kurzvortrag/Diskussion “PL-Feature”: Dependent Type Systems (Idris)*](homework/talk.md) |  |
+| 13.01. |  | *Sprechstunde* | *Freies Arbeiten* |  |
+| 20.01. |  | *[Vorträge](homework/talk.md) [DSL-Projekt](homework/project.md)* | *[Vorträge](homework/talk.md) [DSL-Projekt](homework/project.md)* |  |
 
 ## Prüfungsform, Note und Credits
 
@@ -92,7 +92,7 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
   2.  Kurzvortrag “PL Features” a 20 Minuten (pro Team) plus
       Diskussionsleitung
   3.  Vortrag “Compiler” a 60 Minuten (pro Team)
-  4.  Abschlussvortrag zum DSL-Projekt am Semesterende (W14) a 30
+  4.  Abschlussvortrag zum DSL-Projekt am Semesterende (20.01.) a 30
       Minuten (pro Team)
 
   Je Kriterium: Abgabe eines Post Mortem im ILIAS (**jede Person
@@ -214,4 +214,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9d64508 (orga: clarify post mortem, 2025-10-04)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0e500a8 (orga: replace week w/ date, 2025-10-06)<br></sub></sup></p></blockquote>
