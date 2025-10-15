@@ -285,7 +285,7 @@ def visit(N):
 
 ### Beispiel: Annotierter Syntaxbaum für `5*8+2`
 
-<p align="center"><img src="images/annotatedparsetree.png" width="40%"></p><p align="center">Annotierter
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/annotatedparsetree_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/annotatedparsetree_dark.png"><img src="images/annotatedparsetree.png" width="40%"></picture></p><p align="center">Annotierter
 Parse-Tree</p>
 
 ### Erzeugung des AST aus dem Parse-Tree für `5*8+2`
@@ -297,7 +297,7 @@ Parse-Tree</p>
 | `t : t1 '*' D ;` | `t.node = new Node('*', t1.node, new Leaf(D, D.lexval));` |
 | `t : D ;` | `t.node = new Leaf(D, D.lexval);` |
 
-<p align="center"><img src="images/ast.png" width="20%"></p><p align="center">AST</p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/ast_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/ast_dark.png"><img src="images/ast.png" width="20%"></picture></p><p align="center">AST</p>
 
 ### Beispiel: L-Attributgrammatik, berechnete u. geerbte Attribute, ohne Links-Rekursion
 
@@ -321,7 +321,7 @@ geerbten Attributen:
 
 **`5*8`** =\>
 
-<p align="center"><img src="images/annotatedparsetree2.png" width="40%"></p><p align="center">Annotierter
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/annotatedparsetree2_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/annotatedparsetree2_dark.png"><img src="images/annotatedparsetree2.png" width="40%"></picture></p><p align="center">Annotierter
 Parse-Tree mit berechneten und geerbten Attributen (nur
 Multiplikation)</p>
 

@@ -66,7 +66,7 @@ Hier entsteht ein Tafelbild.
 
 ### Da wollen wir hin
 
-<p align="center"><img src="images/Parser-Automat.png" width="80%"></p><p align="center">Parser-Automat</p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/Parser-Automat_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/Parser-Automat_dark.png"><img src="images/Parser-Automat.png" width="80%"></picture></p><p align="center">Parser-Automat</p>
 
 ## Theorie: LR(0)
 
@@ -178,11 +178,11 @@ $`X \in N \cup T, A \in N, \alpha, \beta \in (N \cup T)^{\ast}`$.
 
 ### Der LR(0)-Automat zu G1
 
-<p align="center"><img src="images/LR_0-SLR_1-Automat.png"></p><p align="center">LR(0)-Automat</p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/LR_0-SLR_1-Automat_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/LR_0-SLR_1-Automat_dark.png"><img src="images/LR_0-SLR_1-Automat.png"></picture></p><p align="center">LR(0)-Automat</p>
 
 ### Die LR(0)-Parsertabelle zu G1
 
-<p align="center"><img src="images/LR_0-Table.png" width="45%"></p><p align="center">LR(0)-Parsertabelle</p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/LR_0-Table_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/LR_0-Table_dark.png"><img src="images/LR_0-Table.png" width="45%"></picture></p><p align="center">LR(0)-Parsertabelle</p>
 
 ## Und was gibt es noch?
 
@@ -223,7 +223,7 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 
 ## Hierarchie der kontextfreien Sprachen
 
-<p align="center"><img src="images/CFG-Hierarchy.png" width="60%"></p><p align="center">Sprachenhierarchie</p>
+<p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/CFG-Hierarchy_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/CFG-Hierarchy_dark.png"><img src="images/CFG-Hierarchy.png" width="60%"></picture></p><p align="center">Sprachenhierarchie</p>
 
 ## Wrap-Up
 

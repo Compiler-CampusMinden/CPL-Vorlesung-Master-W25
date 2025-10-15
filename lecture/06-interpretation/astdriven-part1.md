@@ -17,10 +17,10 @@
 > Der Wert von Literalen ergibt sich direkt durch die Übersetzung des
 > jeweiligen Werts in den passenden Typ der Implementierungssprache. Bei
 > einfachen Ausdrücken kann man auf das in [Syntaxgesteuerte
-> Interpreter](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/lecture/06-interpretation/syntaxdriven.md)
-> demonstrierte Vorgehen zurückgreifen: Man interpretiert zunächst die
-> Teilausdrücke durch den Aufruf von `eval()` für die jeweiligen
-> AST-Kindknoten und berechnet daraus das gewünschte Ergebnis.
+> Interpreter](syntaxdriven.md) demonstrierte Vorgehen zurückgreifen:
+> Man interpretiert zunächst die Teilausdrücke durch den Aufruf von
+> `eval()` für die jeweiligen AST-Kindknoten und berechnet daraus das
+> gewünschte Ergebnis.
 >
 > Für Blöcke und Variablen muss man analog zum Aufbau von Symboltabellen
 > wieder Scopes berücksichtigen, d.h. man benötigt Strukturen ähnlich zu
@@ -214,7 +214,7 @@ float y;
 }
 ```
 
-<img src="images/nested_envs.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/nested_envs_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/nested_envs_dark.png"><img src="images/nested_envs.png"></picture>
 
 Das erinnert nicht nur zufällig an den Aufbau der Symboltabellen :-)
 
@@ -429,4 +429,4 @@ werden (`finally`-Block).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0db2fe0 (tooling: rename origin to credits, 2025-08-22)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> be3ee0f (lecture: use local files for attachments (Interpreter1), 2025-10-15)<br></sub></sup></p></blockquote>

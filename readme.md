@@ -1,6 +1,6 @@
 # MIF 1.5: Concepts of Programming Languages (Winter 2025/26)
 
-<img src="admin/images/architektur_cb.png" width="80%">
+<picture><source media="(prefers-color-scheme: light)" srcset="admin/images/architektur_cb_light.png"><source media="(prefers-color-scheme: dark)" srcset="admin/images/architektur_cb_dark.png"><img src="admin/images/architektur_cb.png" width="80%"></picture>
 
 ## Kursbeschreibung
 

@@ -9,7 +9,7 @@
 > Zur Einordnung noch einmal die bisher betrachteten Phasen und die
 > jeweiligen Ergebnisse:
 >
-> <img src="https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/lecture/06-interpretation/images/architektur_cb.png?raw=true" width="60%">
+> <picture><source media="(prefers-color-scheme: light)" srcset="images/architektur_cb_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/architektur_cb_dark.png"><img src="images/architektur_cb.png" width="60%"></picture>
 >
 > |  | Phase | Ergebnis |
 > |:---|:---|:---|
@@ -39,11 +39,8 @@
 > auf die jeweilige Traversierung mit dem Listener- bzw.
 > Visitor-Pattern. Für nicht so einfache Fälle braucht man aber
 > zusätzlich noch Speicherstrukturen, die wir in [AST-basierte
-> Interpreter:
-> Basics](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/lecture/06-interpretation/astdriven-part1.md)
-> und [AST-basierte Interpreter: Funktionen und
-> Klassen](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/lecture/06-interpretation/astdriven-part2.md)
-> betrachten.
+> Interpreter: Basics](astdriven-part1.md) und [AST-basierte
+> Interpreter: Funktionen und Klassen](astdriven-part2.md) betrachten.
 >
 > </details>
 
@@ -59,7 +56,7 @@
 
 ## Überblick Interpreter
 
-<img src="images/interpreter.png" width="50%">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/interpreter_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/interpreter_dark.png"><img src="images/interpreter.png" width="50%"></picture>
 
 Beim Interpreter durchläuft der Sourcecode nur das Frontend, also die
 Analyse. Es wird kein Code erzeugt, stattdessen führt der Interpreter
@@ -197,7 +194,7 @@ s    : expr         {List<EContext> x = $expr.ctx.e();} ;
 expr : e '*' e ;
 ```
 
-<img src="images/ParserRuleContext.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/ParserRuleContext_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/ParserRuleContext_dark.png"><img src="images/ParserRuleContext.png"></picture>
 
 Jede Regel liefert ein passend zu dieser Regel generiertes
 Kontext-Objekt zurück. Darüber kann man das/die Kontextobjekt(e) der
@@ -265,7 +262,7 @@ ANTLR kann zu dieser Grammatik einen passenden Listener (Interface
 `calcListener`) generieren. Weiterhin generiert ANTLR eine leere
 Basisimplementierung (Klasse `calcBaseListener`):
 
-<img src="images/ParseTreeListener.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/ParseTreeListener_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/ParseTreeListener_dark.png"><img src="images/ParseTreeListener.png"></picture>
 
 Von dieser Basisklasse leitet man einen eigenen Listener ab und
 implementiert die Methoden, die man benötigt.
@@ -336,7 +333,7 @@ ANTLR kann zu dieser Grammatik einen passenden Visitor (Interface
 `calcVisitor<T>`) generieren. Weiterhin generiert ANTLR eine leere
 Basisimplementierung (Klasse `calcBaseVisitor<T>`):
 
-<img src="images/ParseTreeVisitor.png">
+<picture><source media="(prefers-color-scheme: light)" srcset="images/ParseTreeVisitor_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/ParseTreeVisitor_dark.png"><img src="images/ParseTreeVisitor.png"></picture>
 
 Von dieser Basisklasse leitet man einen eigenen Visitor ab und
 überschreibt die Methoden, die man benötigt. Wichtig ist, dass man
@@ -462,4 +459,4 @@ public class TestMyVisitor {
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4fd8c3d (lecture: rework outcomes (06/Syntaxdriven), 2025-08-21)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a47dbc5 (lecture: use local files for attachments (Syntaxdriven), 2025-10-15)<br></sub></sup></p></blockquote>
