@@ -40,6 +40,8 @@ parsebaren Grammatiken möglich und erschwert die Fehlerbehandlung.
 
 ## Von unten nach oben
 
+### Von unten nach oben
+
 Bei der Bottom-Up-Analyse wird der Parse Tree wird von unten nach oben
 aufgebaut, von links nach rechts. Dabei entsteht eine *Rechtsableitung*.
 
@@ -223,6 +225,8 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 
 ## Hierarchie der kontextfreien Sprachen
 
+### Hierarchie der kontextfreien Sprachen
+
 <p align="center"><picture><source media="(prefers-color-scheme: light)" srcset="images/CFG-Hierarchy_light.png"><source media="(prefers-color-scheme: dark)" srcset="images/CFG-Hierarchy_dark.png"><img src="images/CFG-Hierarchy.png" width="60%"></picture></p><p align="center">Sprachenhierarchie</p>
 
 ## Wrap-Up
@@ -320,4 +324,4 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e7bbe05 (cleanup: remove 02/lr-parser{1,2}.md - #210, 2025-08-21)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 8c8a8d6 (lecture: fix slide level (LR Parser), 2025-10-20)<br></sub></sup></p></blockquote>

@@ -495,4 +495,4 @@ T t'(T inh) {
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 36445cc (lecture: rework outcomes (03/AttribGrammar), 2025-08-20)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1a48a84 (lecture: fix slide level (AttribGrammar), 2025-10-20)<br></sub></sup></p></blockquote>
