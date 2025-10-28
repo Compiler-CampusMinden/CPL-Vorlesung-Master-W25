@@ -106,6 +106,47 @@ Visitor-Pattern. Basierend auf dem Typ des aktuell betrachteten
 AST-Knotens wird entschieden, wie damit umgegangen werden soll. Dies
 erinnert an den Aufbau der Symboltabellen …
 
+> [!TIP]
+>
+> **Exkurs Expressions (Ausdrücke) vs. Statements (Anweisungen)**
+>
+> In Programmiersprachen unterscheiden wir häufig **Expressions**
+> (*Ausdrücke*) und **Statements** (*Anweisungen*).
+>
+> Expressions sind dabei syntaktische Konstrukte einer
+> Programmiersprache, die (in einem gegebenen Kontext) zu einem Wert
+> **evaluiert** werden können. Typische Expressions sind beispielsweise
+> Ausdrücke wie `2*3` oder `foo(42);`… In manchen Sprachen sind
+> beispielsweise auch Zuweisungen Expressions: `v = 42 + 7;` würde in C
+> der Variablen `v` den Wert 49 zuweisen, dies ist gleichzeitig auch der
+> Wert des gesamten Ausdrucks. Man könnte in C also Dinge formulieren
+> wie `if (v = 42 + 7) ...` (wobei das Interpretieren eines Integers in
+> einem bool’schen Kontext nochmal ein anderes Problem ist).
+>
+> Statements sind syntaktische Konstrukte in Programmiersprachen, die
+> **ausgeführt** werden können und dabei in der Regel einen Zustand im
+> Programm verändern, also einen Seiteneffekt haben. Die Ausführung
+> eines Statements hat normalerweise keinen Wert an sich. Typische
+> Beispiele sind Zuweisungen `v = 7`, Kontrollfluss
+> `if (...) then {...} else {...}`, Schleifen `for x in foo: ...`,
+> `switch/case`-Statements. (Es gibt aber auch Programmiersprachen, wo
+> ein `if/then/else`-Konstrukt eine Expression ist, also bei der
+> Ausführung einen Wert ergibt.) In den meisten Programmiersprachen
+> können Expressions Teile von Statements bilden: In `v = 42 + 7` ist
+> die gesamte Zuweisung eine Anweisung (Seiteneffekt: die Variable `v`
+> hat danach einen anderen Zustand), und der Teil `42 + 7` ist ein
+> Ausdruck, der ausgewertet werden kann und üblicherweise den Wert 49
+> ergibt (außer man beauftragt ein LLM mit der Auswertung). In
+> C-ähnlichen Sprachen kann durch Hinzufügen eines Semikolons aus dem
+> Ausdruck `42 +7` eine Anweisung gemacht werden…
+>
+> Vergleiche auch Nystrom ([2021](#ref-Nystrom2021)), Kapitel 6 “Parsing
+> Expressions”, Kapitel 7 “Evaluating Expressions” und Kapitel 8
+> “Statements and State”, aber auch [Wikipedia:
+> Expression](https://en.wikipedia.org/wiki/Expression_(computer_science))
+> und [Wikipedia:
+> Statement](https://en.wikipedia.org/wiki/Statement_(computer_science)).
+
 Die `eval()`-Methode bildet das Kernstück des (AST-traversierenden)
 Interpreters. Hier wird passend zum aktuellen AST-Knoten die passende
 Methode des Interpreters aufgerufen.
@@ -427,4 +468,4 @@ werden (`finally`-Block).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> be3ee0f (lecture: use local files for attachments (Interpreter1), 2025-10-15)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 89c78b1 (lecture: distinguish between expressions and instructions (ANTLR), 2025-10-28)<br></sub></sup></p></blockquote>
