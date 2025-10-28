@@ -27,7 +27,6 @@
 > ***Teams***
 >
 > Die Bearbeitung erfolgt in 3er-Teams.
->
 > </details>
 
 ## Kurzbeschreibung
@@ -69,6 +68,13 @@ Das Projekt verfolgt zwei zentrale Fragen:
 Das Projekt verbindet damit verschiedene Forschungsgebiete:
 Programmiersprachen/Compilerbau, Gamification und Serious Games sowie
 Softwarearchitektur in Echtzeit-/Game-Loop-Umgebungen.
+
+Potentiell interessante Literatur:
+
+- Fowler ([2010](#ref-Fowler2010))
+- Voelter ([2013](#ref-Voelter2013)) (*Anmerkung*: Das Buch ist recht
+  alt, aber die ersten drei Kapitel könnten hilfreich sein.)
+- Mernik u. a. ([2005](#ref-mernik2005))
 
 ## Ziele
 
@@ -194,8 +200,47 @@ und holen Sie sich aktiv Feedback.
 
 ------------------------------------------------------------------------
 
+> [!NOTE]
+>
+> <details>
+>
+> <summary><strong>👀 Quellen</strong></summary>
+>
+> <div id="refs" class="references csl-bib-body hanging-indent">
+>
+> <div id="ref-Fowler2010" class="csl-entry">
+>
+> Fowler, M. 2010. *Domain Specific Languages*. Addison Wesley.
+> <https://learning.oreilly.com/library/view/domain-specific-languages/9780132107549/>.
+>
+> </div>
+>
+> <div id="ref-mernik2005" class="csl-entry">
+>
+> Mernik, M., J. Heering, und A. M. Sloane. 2005. „When and How to
+> Develop Domain-Specific Languages“. *ACM Computing Surveys (CSUR)* 37
+> (4): 316–44.
+> <https://john.cs.olemiss.edu/~hcc/csci658/notes/localcopy/WhenDSL.pdf>.
+>
+> </div>
+>
+> <div id="ref-Voelter2013" class="csl-entry">
+>
+> Voelter, M. 2013. *DSL Engineering: Designing, Implementing and Using
+> Domain-Specific Languages*. CreateSpace Independent Publishing
+> Platform.
+> <https://www.voelter.de/dslbook/markusvoelter-dslengineering-1.0.pdf>.
+>
+> </div>
+>
+> </div>
+>
+> </details>
+
+------------------------------------------------------------------------
+
 <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" width="10%">
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9b0a103 (orga: improve readability of project description, 2025-10-14)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cbe55fc (project: reformat file (intern), 2025-10-28)<br></sub></sup></p></blockquote>

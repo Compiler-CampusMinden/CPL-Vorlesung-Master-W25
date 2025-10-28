@@ -21,12 +21,11 @@
 > Die gezeigten Phasen werden traditionell unterschieden. Je nach
 > Aufgabe können verschiedene Stufen zusammengefasst werden oder sogar
 > gar nicht auftreten.
->
 > </details>
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -416,8 +415,7 @@ lesen:
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Aho2023" class="csl-entry">
 >

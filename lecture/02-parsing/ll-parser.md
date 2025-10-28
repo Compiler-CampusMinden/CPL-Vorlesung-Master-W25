@@ -2,7 +2,7 @@
 
 > [!NOTE]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
@@ -247,7 +247,7 @@ zum tabellengesteuerten LL-Parsen</p>
 ## 📖 Zum Nachlesen
 
 - Aho u. a. ([2023](#ref-Aho2023))
-- Hopcroft, Motwani, und Ullman ([2003](#ref-hopcroft2003))
+- Hopcroft u. a. ([2003](#ref-hopcroft2003))
 
 > [!NOTE]
 >
@@ -274,8 +274,7 @@ zum tabellengesteuerten LL-Parsen</p>
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Aho2023" class="csl-entry">
 >

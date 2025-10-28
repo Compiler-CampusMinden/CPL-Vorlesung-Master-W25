@@ -22,7 +22,6 @@
 >
 > Die zeitliche Verteilung entnehmen Sie bitte dem
 > [Fahrplan](../readme.md).
->
 > </details>
 
 ## Kurzvortrag “PL Feature” (ca. 20 Minuten, DE)
@@ -156,8 +155,7 @@ Siehe auch [Beschreibung zum Projekt](project.md).
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Gabbrielli2023" class="csl-entry">
 >
@@ -170,7 +168,7 @@ Siehe auch [Beschreibung zum Projekt](project.md).
 > <div id="ref-PLAI2025" class="csl-entry">
 >
 > Krishnamurthi, S. 2025. „Programming Languages: Application and
-> Interpretation“. 2025. <https://www.plai.org/>.
+> Interpretation“. <https://www.plai.org/>.
 >
 > </div>
 >

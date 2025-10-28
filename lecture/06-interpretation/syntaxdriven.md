@@ -41,12 +41,11 @@
 > zusätzlich noch Speicherstrukturen, die wir in [AST-basierte
 > Interpreter: Basics](astdriven-part1.md) und [AST-basierte
 > Interpreter: Funktionen und Klassen](astdriven-part2.md) betrachten.
->
 > </details>
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -418,8 +417,7 @@ public class TestMyVisitor {
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Levine2009" class="csl-entry">
 >
@@ -444,7 +442,8 @@ public class TestMyVisitor {
 >
 > <div id="ref-Parr2014" class="csl-entry">
 >
-> ———. 2014. *The Definitive ANTLR 4 Reference*. Pragmatic Bookshelf.
+> Parr, T. 2014. *The Definitive ANTLR 4 Reference*. Pragmatic
+> Bookshelf.
 > <https://learning.oreilly.com/library/view/the-definitive-antlr/9781941222621/>.
 >
 > </div>

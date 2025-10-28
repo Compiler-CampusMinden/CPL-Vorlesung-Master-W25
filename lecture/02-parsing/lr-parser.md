@@ -2,7 +2,7 @@
 
 > [!NOTE]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🖇 Weitere Unterlagen</strong></summary>
 >
@@ -253,7 +253,7 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 
 - Aho u. a. ([2023](#ref-Aho2023)): Kapitel 4.5 bis 4.8
 - Aho u. a. ([2023](#ref-Aho2023))
-- Hopcroft, Motwani, und Ullman ([2003](#ref-hopcroft2003))
+- Hopcroft u. a. ([2003](#ref-hopcroft2003))
 - Kunert ([2018](#ref-Kunert2018))
 - Wagenknecht und Hielscher ([2014](#ref-Wagenknecht2014))
 
@@ -279,8 +279,7 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Aho2023" class="csl-entry">
 >
@@ -301,7 +300,7 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 >
 > <div id="ref-Kunert2018" class="csl-entry">
 >
-> Kunert, A. 2018. „LR(k)-Analyse für Pragmatiker“. 2018.
+> Kunert, A. 2018. „LR(k)-Analyse für Pragmatiker“.
 > <http://amor.cms.hu-berlin.de/~kunert/papers/lr-analyse/lr.pdf>.
 >
 > </div>

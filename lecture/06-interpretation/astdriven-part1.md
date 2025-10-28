@@ -38,12 +38,11 @@
 > Variablen und setzt den Wert in der gefundenen Umgebung. Bei Sprachen,
 > die Variablen beim ersten Zugriff definieren, muss man dieses
 > Verhalten entsprechend anpassen.
->
 > </details>
 
 > [!TIP]
 >
-> <details>
+> <details open>
 >
 > <summary><strong>🎦 Videos</strong></summary>
 >
@@ -395,8 +394,7 @@ werden (`finally`-Block).
 >
 > <summary><strong>👀 Quellen</strong></summary>
 >
-> <div id="refs" class="references csl-bib-body hanging-indent"
-> entry-spacing="0">
+> <div id="refs" class="references csl-bib-body hanging-indent">
 >
 > <div id="ref-Grune2012" class="csl-entry">
 >
