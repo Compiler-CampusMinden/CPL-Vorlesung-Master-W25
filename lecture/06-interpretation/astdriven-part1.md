@@ -468,4 +468,4 @@ werden (`finally`-Block).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 89c78b1 (lecture: distinguish between expressions and instructions (ANTLR), 2025-10-28)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 369c447 (lecture: distinguish between expressions and instructions (Interpreter), 2025-10-28)<br></sub></sup></p></blockquote>
