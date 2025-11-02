@@ -114,7 +114,7 @@ mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
 
 - **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung
   des jeweiligen Kriteriums bzw. die Teilnahme am
-  Edmonton/Minden-Meeting zurückblickend mit mind. 200 bis max. 400
+  Edmonton/Minden-Meeting zurückblickend mit mind. 150 bis max. 400
   Wörtern (Nutzlast; Überschriften und Links zählen nicht mit). Gehen
   Sie dabei aussagekräftig und nachvollziehbar auf folgende Punkte ein:
 
@@ -214,4 +214,4 @@ is licensed under [CC BY-SA
 See the [credits](CREDITS.md) for a detailed list of contributing
 projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7ce8d9b (orga: move talk parser generators to 02.12. (Readme), 2025-10-28)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 77b7278 (orga: reduce lower bound of post mortem to 150 words, 2025-11-02)<br></sub></sup></p></blockquote>
