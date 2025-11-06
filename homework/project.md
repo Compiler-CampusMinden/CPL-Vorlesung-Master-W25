@@ -53,8 +53,6 @@ Potentiell interessante Literatur im Bereich DSL:
 
   <details>
 
-  <summary><strong>Hinweise</strong></summary>
-
   Didaktische Inhalte können in Serious-Games effizienter bereitgestellt
   werden, wenn Lehrende über eine fachnahe, deklarative Sprache
   arbeiten. Spiele wie beispielsweise das Dungeon-Framework (ECS,
@@ -83,8 +81,6 @@ Potentiell interessante Literatur im Bereich DSL:
 
   <details>
 
-  <summary><strong>Hinweise</strong></summary>
-
   Sie entwickeln einen Interpreter, der z.B. einen Sub-Dialekt von
   Python zur Laufzeit in ein Computer-Spiel wie das Java-basierte
   [Dungeon-Framework](https://github.com/Dungeon-CampusMinden/Dungeon)
@@ -101,8 +97,6 @@ Potentiell interessante Literatur im Bereich DSL:
   [Dungeon](https://github.com/Dungeon-CampusMinden/Dungeon)
 
   <details>
-
-  <summary><strong>Hinweise</strong></summary>
 
   Im [Dungeon-Projekt](https://github.com/Dungeon-CampusMinden/Dungeon)
   wurde eine Blockly-Anbindung realisiert. Dabei werden vordefinierte
@@ -140,8 +134,6 @@ Potentiell interessante Literatur im Bereich DSL:
   Extension
 
   <details>
-
-  <summary><strong>Hinweise</strong></summary>
 
   Im [Dungeon-Projekt](https://github.com/Dungeon-CampusMinden/Dungeon)
   wurde eine VSCode-Extension realisiert. In diesem Plugin kann
@@ -267,7 +259,7 @@ Projekt zu begleiten und wünschen Ihnen viel Erfolg!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> ae18cc2 (orga: open project topics, 2025-11-06)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fc6f381 (orga: improve formats (Project), 2025-11-06)<br></sub></sup></p></blockquote>
 
 [^1]: … for a given value of “jede” :) … Die Idee muss zum Thema passen
     und vom Anspruch und Umfang her einem 10 ECTS Master-Modul
