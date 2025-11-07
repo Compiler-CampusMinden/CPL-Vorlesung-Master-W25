@@ -149,16 +149,17 @@ Potentiell interessante Literatur im Bereich DSL:
 
   Ziel dieses Projekt-Vorschlags ist die Definition einer einfachen
   objektorientierten Sprache (“MiniJava”) mit Features aus der
-  funktionalen Programmieren, die sich für Programmier-Einsteiger leicht
-  verstehen lässt und an der man wichtige Programmierkonzepte einfach
-  erlernen kann. Diese Sprache soll unabhängig von der Dungeon-API sein,
-  aber trotzdem typische Möglichkeiten für die Interaktion in Spielen
-  aufweisen. Für diese Sprache soll ein Interpreter entwickelt werden,
-  der im Dungeon als “System” in der ECS-Architektur mitläuft, empfangen
-  und verarbeitet werden und in die entsprechenden Aktionen im Dungeon
-  umgesetzt werden. Zusätzlich soll eine VSCode-Extension realisiert
-  werden, die Syntax-Highlighting und Autocompletion unterstützt und per
-  Tool-Tip die jeweilige Dokumentation anzeigen kann.
+  funktionalen Programmierung, die sich für Programmier-Einsteiger
+  leicht verstehen lässt und an der man wichtige Programmierkonzepte
+  einfach erlernen kann. Diese Sprache soll unabhängig von der
+  Dungeon-API sein, aber trotzdem typische Möglichkeiten für die
+  Interaktion in Spielen aufweisen. Für diese Sprache soll ein
+  Interpreter entwickelt werden, der im Dungeon als “System” in der
+  ECS-Architektur mitläuft, empfangen und verarbeitet werden und in die
+  entsprechenden Aktionen im Dungeon umgesetzt werden. Zusätzlich soll
+  eine VSCode-Extension realisiert werden, die Syntax-Highlighting und
+  Autocompletion unterstützt und per Tool-Tip die jeweilige
+  Dokumentation anzeigen kann.
 
   Dieses Projekt lässt sich im Verarbeitungsteil in zwei Projekte
   aufteilen: Ein Projekt bearbeitet die VSCode-Extension für MiniJava,
@@ -215,6 +216,9 @@ Potentiell interessante Literatur im Bereich DSL:
   arithmetische Ausdrücke) mit Lowering nach LLVM; alternativ/ergänzend
   Optimierung via E-Graphs (Equality Saturation) und anschließendes
   Lowering.
+
+Neben passenden Konzepten soll auch eine geeignete
+Umsetzung/Implementierung erstellt und empirisch untersucht werden.
 
 ## Exposé (pro Team, Kurs-GitHub)
 
@@ -299,7 +303,7 @@ Projekt zu begleiten und wünschen Ihnen viel Erfolg!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> ff109cb (project: add bootstrapping and self-hosting, 2025-11-07)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 91cbdb3 (project: clarify outcomes (concepts, implementation), 2025-11-07)<br></sub></sup></p></blockquote>
 
 [^1]: … for a given value of “jede” :) … Die Idee muss zum Thema passen
     und vom Anspruch und Umfang her einem 10 ECTS Master-Modul
